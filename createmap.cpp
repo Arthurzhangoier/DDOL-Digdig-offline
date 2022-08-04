@@ -8,6 +8,9 @@ git push -u origin main
 */
 #include<bits/stdc++.h>
 using namespace std;
+struct mine_kind{
+  int type,gl;
+};
 void dfs(mine_kind mine,int x,int y){
   m[x][y]=mine.type;
   srand(time(NULL));
@@ -20,5 +23,12 @@ void dfs(mine_kind mine,int x,int y){
   }
 }
 int main(){
+  const int m=100,n=100;
+  for(int i=1;i<=n;i++){
+    for(int j=1;j<=m;j++){
+      dfs
+    }
+  } 
+}
    
   
